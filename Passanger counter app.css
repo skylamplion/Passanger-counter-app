@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(96, 140, 140);
+}
+
+.passanger{
+    text-align: center;
+    border: 2px solid black;
+    justify-content:space-around;
+    height: 400px;
+    width: 400px;
+    margin-top: 30px;
+    margin-left: 400px;
+    padding: 10px;
+    background-image: linear-gradient(to top, violet, rgb(123, 89, 147), rgb(84, 84, 138), green, rgb(215, 215, 166), rgb(194, 172, 132), red);
+}
+
+
+#total{
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+#increment{
+    border: 2px solid black;
+    margin-top: 20px;
+    background-color: rgb(206, 60, 60);
+    border-radius: 5px;
+    height: 40px;
+    width: 200px;
+    padding: 5px;
+    font-size: large;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+}
+
+#increment:hover{
+    background-color: green;
+    color:bisque;
+}
+
+#save-btn{
+    margin-top: 20px;
+    border: 2px solid black;
+    background-color: rgb(140, 230, 98);
+    border-radius: 5px;
+    height: 40px;
+    width: 200px;
+    padding: 5px;
+    font-size: large;
+    font-weight: 800;
+    color: rgb(75, 52, 52);
+
+}
+
+#save-btn:hover{
+    background-color: green;
+    color:bisque;
+}
+
+#totalPassenger{
+    margin-top: 20px;
+    overflow-y:scroll;
+    height: 50px;
+    width: 350px;
+    padding: 5px;
+}
+
+#totalPassenger::-webkit-scrollbar {
+    display: none;
+}
